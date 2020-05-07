@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Google WEB Font URL : https://fonts.google.com/?subset=korean&selection.family=Nanum+Gothic -->
+    <!-- Nanum 고딕체중 마음에 드는거 선택 후 해당 링크를 HTML 코드에 삽입 -->
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>navbar</title>
+
+    <style media="screen">
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        height: 100%;
+      }
+
+      body {
+        background-image: url('img/bg.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+    </style>
+
+  </head>
+
+  <body>
+    <nav class="navbar navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#MyNav">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">LOGO</a>
+        </div>
+        <div class="collapse navbar-collapse" id="MyNav">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a data-toggle="modal" data-target="#Modal_Signup"><span class="glyphicon glyphicon-user"></span> Sign UP</a></li>
+            <li><a data-toggle="modal" data-target="#Modal_Login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          </ul>
+
+          <form class="navbar-form navbar-right" action="#">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Search">
+              <div class="input-group-btn">
+                <button class="btn btn-default" type="submit">
+                  <i class="glyphicon glyphicon-search"></i>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </nav>
+
+      <!-- Login Modal Container -->
+      <div class="container">
+        <div class="modal fade" id="Modal_Login" role="dialog">
+          <div class="modal-dialog">
+            <div class="modal-content">
+
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">LOGIN</h4>
+              </div>
+
+              <div class="modal-body">
+                <div class="container">
+                  <form class="form-horizontal" action="./php/login.php" method="POST" name="login-form">
+
+                    <div class="form-group">
+                      <label style="text-align:left" for="login_id" class="col-sm-1 control-label">ID</label>
+                      <div class="col-sm-4">
+                        <input class="form-control" name="login_id" id="login_id" maxlength="20" type="text" autofocus placeholder="User ID Here" required autocomplete="off" >
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <label style="text-align:left" for="login_pw" class="col-sm-1 control-label">PW</label>
+                      <div class="col-sm-4">
+                        <input class="form-control" name="login_pw" id="login_pw" maxlength="30" type="password" autofocus placeholder="User Password Here" required autocomplete="off" >
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+
+              <div class="modal-footer">
+                <button type="submit" class="btn btn-default">LOGIN</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">CANCEL</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SignUP Modal Container -->
+      <div class="container">
+        <div class="modal fade" id="Modal_Signup" role="dialog">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">SIGN UP</h4>
+              </div>
+
+              <div class="modal-body">
+                <div class="container">
+                  <form class="form-horizontal" action="./php/signup.php" method="POST" name="signup-form">
+                    <div class="form-group">
+                      <label style="text-align:left" for="id" class="col-sm-2 control-label">USER ID</label>
+                      <div class="col-sm-6">
+                        <input class="form-control" name="id" id="id" maxlength="20" type="text" autofocus placeholder="User ID Here" required autocomplete="off" >
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <label style="text-align:left" for="pw" class="col-sm-2 control-label">USER PW</label>
+                      <div class="col-sm-6">
+                        <input class="form-control" name="pw" id="pw" maxlength="30" type="password" placeholder="User Password Here" required autocomplete="off" >
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <label style="text-align:left" for="pw2" class="col-sm-2 control-label">RE-ENTER PW</label>
+                      <div class="col-sm-6">
+                        <input class="form-control" name="pw2" id="pw2" maxlength="30" type="password" placeholder="User Repeat Password Here" required autocomplete="off" >
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <label style="text-align:left" for="name" class="col-sm-2 control-label">NAME</label>
+                      <div class="col-sm-6">
+                        <input class="form-control" name="name" id="name" maxlength="20" type="text" placeholder="User Name Here" required autocomplete="off" >
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <label style="text-align:left" for="phone" class="col-sm-2 control-label">PHONE</label>
+                      <div class="col-sm-6">
+                        <input class="form-control" name="phone" id="phone" maxlength="50" type="text" placeholder="User Phone Number Here" required autocomplete="off" >
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <label style="text-align:left" for="addr" class="col-sm-2 control-label">ADDRESS</label>
+                      <div class="col-sm-6">
+                        <input class="form-control" name="addr" id="addr" maxlength="50" type="text" placeholder="User Address Here" required autocomplete="off" >
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <label style="text-align:left" for="mail" class="col-sm-2 control-label">E-Mail</label>
+                      <div class="col-sm-6">
+                        <input class="form-c
+
+                        ontrol" name="mail" id="mail" maxlength="50" type="email" placeholder="User E-Mail Address Here" required autocomplete="off" >
+                      </div>
+                    </div>
+
+                </div>
+              </div>
+
+              <div class="modal-footer">
+                <button type="submit" class="btn btn-default">SIGN UP</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">CANCEL</button>
+              </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+  </body>
+</html>
