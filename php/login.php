@@ -2,6 +2,8 @@
 
   // 로그인 php
 
+  echo "<script>log.console("로그인 php들어옴");</script>";
+
   require_once("./db_con.php");
   $user_id=$_POST["login_id"];
   $userpw=$_POST["login_pw"];
