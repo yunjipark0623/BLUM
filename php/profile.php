@@ -98,7 +98,7 @@
                                 <br></br>
                             </div>
 
-                            <a href="profile_edit.html" class="profile_edit" style="padding: 0; height: 30px; margin-right: 10px;">프로필편집</a>
+                            <a href="#" class="profile_edit" style="padding: 0; height: 30px; margin-right: 10px;">프로필편집</a>
                             <a href="./logout.php" class="logout" style="padding: 0; height: 30px;">로그아웃</a>
                         </div>
 

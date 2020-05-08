@@ -179,10 +179,7 @@ session_start();
 
                         <div class="timer">1시간 전</div>
 
-                        <div class="comment_field" id="add-comment-post37">
-                            <input type="text" placeholder="댓글달기...">
-                            <div class="upload_btn m_text" data-name="comment">게시</div>
-                        </div>
+
                     </article>
                     <article class="contents">
                         <header class="top">
@@ -245,10 +242,6 @@ session_start();
 
                         <div class="timer">1시간 전</div>
 
-                        <div class="comment_field" id="add-comment-post37">
-                            <input type="text" placeholder="댓글달기...">
-                            <div class="upload_btn m_text" data-name="comment">게시</div>
-                        </div>
                     </article>
                     <article class="contents">
                         <header class="top">
@@ -311,10 +304,7 @@ session_start();
 
                         <div class="timer">2시간 전</div>
 
-                        <div class="comment_field" id="add-comment-post37">
-                            <input type="text" placeholder="댓글달기...">
-                            <div class="upload_btn m_text" data-name="comment">게시</div>
-                        </div>
+
                     </article>
                     <article class="contents feed" style="width: 500px;">
                         <header class="top">
@@ -377,10 +367,6 @@ session_start();
 
                         <div class="timer">2시간 전</div>
 
-                        <div class="comment_field" id="add-comment-post37">
-                            <input type="text" placeholder="댓글달기...">
-                            <div class="upload_btn m_text" data-name="comment">게시</div>
-                        </div>
                     </article>
 
 
