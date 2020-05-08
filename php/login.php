@@ -2,13 +2,17 @@
 
   // 로그인 php
 
-  echo "<script>log.console("로그인 php들어옴");</script>";
+  echo "<script>console.log('로그인 php들어옴');</script>";
 
   require_once("./db_con.php");
-  $user_id=$_POST["login_id"];
+
+  echo "<script>console.log('DB접속은 됨');</script>";
+  $userid=$_POST["login_id"];
   $userpw=$_POST["login_pw"];
 
-  $sql_check = "SELECT * FROM member WHERE ID='$user_id' and PW=password('$userpw')";
+  echo "<script>console.log('$userid $userpw');</script>";
+
+  $sql_check = "SELECT * FROM member WHERE ID='$userid' and PW=password('$userpw')";
   $result = $conn->query($sql_check);
   $num = $result->num_rows;
 
