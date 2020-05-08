@@ -123,7 +123,7 @@
 
                 <div class="mylist_contents contents_container active">
                     <div class="pic">
-                        <a href="../detail-page.html"><img src="../imgs/song1.jpg" alt=""></a>
+                        <a href="./detail-page.php"><img src="../imgs/song1.jpg" alt=""></a>
                     </div>
                     <div class="pic">
                         <a href="../detail-page1.html"><img src="../imgs/song2.jpg" alt=""></a>
