@@ -10,10 +10,9 @@
   $conn = mysqli_connect($db_host,$db_user,$db_pass,$db_name);
 
   if(!$conn) { //접속 실패
-    echo "<script>alert(\"DB 연결 실패\");</script>";
+    // echo "<script>alert(\"DB 연결 실패\");</script>";
   }
   else { // 접속 성공
-    echo "<script>alert(\"DB 연결 성공\");</script>";
+    // echo "<script>alert(\"DB 연결 성공\");</script>";
   }
-
-?>
+?>  

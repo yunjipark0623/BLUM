@@ -35,13 +35,12 @@
     $Auto_Increment = "UPDATE member SET No = @CNT:=@CNT+1";
     mysqli_query($conn,$Auto_Increment);
     echo "<script>alert(\"정상적으로 회원가입이 되었습니다.\");</script>";
-    echo "<script>location.replace('../login.html');</script>";
+    echo "<script>location.replace('../index.html');</script>";
     exit;
   }
   else {
     echo "<script>alert(\"예기치 못한 오류가 발생하였습니다.\");</script>";
-    echo "<script>location.replace('../fail.html');</script>";
+    echo "<script>location.replace('../index.html');</script>";
     exit;
   }
-
 ?>
