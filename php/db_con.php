@@ -15,4 +15,4 @@
   else { // 접속 성공
     // echo "<script>alert(\"DB 연결 성공\");</script>";
   }
-?>  
+?>

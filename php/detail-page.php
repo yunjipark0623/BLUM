@@ -53,7 +53,7 @@
 
                 <a href="./index_auth.php">
                     <div>
-                        <img src="../img/BLUMPeople.png" style="width: 200px; height : 45px;">
+                        <img src="https://ifh.cc/v-27UAqp" style="width: 200px; height : 45px;">
                     </div>
                 </a>
 
@@ -95,7 +95,7 @@
 
                         <div class="img_section">
                             <div class="trans_inner">
-                                <div><img src="../imgs/song1.jpg" alt=""></div>
+                                <div><img src="https://ifh.cc/v-cuBLwT" alt=""></div>
                             </div>
                         </div>
 
@@ -105,7 +105,7 @@
                             <header class="top">
                                 <div class="user_container">
                                     <div class="profile_img">
-                                        <img src="../imgs/thumb.jpeg" alt="">
+                                        <img src="https://ifh.cc/v-pwtpG3" alt="">
                                     </div>
                                     <div class="user_name">
                                         <div class="nick_name">KindTiger</div>
@@ -121,7 +121,7 @@
                                 </div>
 
                             </header>
-                                
+
                             <?php
                                 require_once('./db_con.php');
                                 $board_list_sql = "SELECT * FROM board";
@@ -144,22 +144,22 @@
 
                                     $st = "";
 
-                                    
+
                                     print "<div class='admin_container'>";
-                                    print "<div class='admin'><img src='../imgs/thumb.jpeg' alt='user'></div>";
+                                    print "<div class='admin'><img src='https://ifh.cc/v-pwtpG3' alt='user'></div>";
                                     print "<span class='user_id'>$row[userid]</span>";
                                     print "<div class='comment'> $row[Comment]";
                                     print "<div class='time'>2시간</div>";
                                     print "</div>";
                                     print "</div>";
-                                    
+
 
                                     // print "<tr class='$st'>";
                                     // print "<td>$row[userid]</td>";
                                     // print "<td>$row[Comment]</td>";
                                 }
 
-                                print "</section>"; 
+                                print "</section>";
 
                                 $page_count = (int) ($total_row / 10);
                                 if ($total_row % 10) {

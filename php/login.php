@@ -23,4 +23,4 @@
     echo "<script>alert(\"아이디 또는 비밀번호를 확인바랍니다.\");</script>";
     echo "<script>window.history.back();</script>";
   }
-?>  
+?>

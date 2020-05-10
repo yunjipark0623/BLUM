@@ -43,7 +43,7 @@
             <section class="h_inner">
                 <a href="./index_auth.php">
                     <div>
-                        <img src="../img/BLUMPeople.png" style="width: 200px; height : 45px;">
+                        <img src="https://ifh.cc/v-27UAqp" style="width: 200px; height : 45px;">
                     </div>
                 </a>
 
@@ -82,7 +82,7 @@
                 <div class="hori_cont">
                     <div class="profile_wrap">
                         <div class="profile_img">
-                            <img src="../img/profile.jpg">
+                            <img src="https://ifh.cc/v-Pput4v">
                         </div>
                     </div>
 
@@ -123,31 +123,31 @@
 
                 <div class="mylist_contents contents_container active">
                     <div class="pic">
-                        <a href="./detail-page.php"><img src="../imgs/song1.jpg" alt=""></a>
+                        <a href="./detail-page.php"><img src="https://ifh.cc/v-cuBLwT" alt=""></a>
                     </div>
                     <div class="pic">
-                        <a href="../detail-page1.html"><img src="../imgs/song2.jpg" alt=""></a>
+                        <a href="../detail-page1.html"><img src="https://ifh.cc/v-SQLa5I" alt=""></a>
                     </div>
                     <div class="pic">
-                        <a href="../detail-page2.html"> <img src="../imgs/song3.jpg" alt=""></a>
+                        <a href="../detail-page2.html"> <img src="https://ifh.cc/v-rCAxAs" alt=""></a>
                     </div>
                     <div class="pic">
-                        <a href="../detail-page3.html"> <img src="../imgs/song4.jpg" alt=""></a>
+                        <a href="../detail-page3.html"> <img src="https://ifh.cc/v-IKDBMT" alt=""></a>
                     </div>
                     <div class="pic">
-                        <a href="../detail-page4.html"> <img src="../imgs/song5.jpg" alt=""></a>
+                        <a href="../detail-page4.html"> <img src="https://ifh.cc/v-H1023D" alt=""></a>
                     </div>
                     <div class="pic">
-                        <a href="../detail-page5.html"> <img src="../imgs/song6.jpg" alt=""></a>
+                        <a href="../detail-page5.html"> <img src="https://ifh.cc/v-SFzK5G" alt=""></a>
                     </div>
                     <div class="pic">
-                        <a href="../detail-page6.html"> <img src="../imgs/song7.jpg" alt=""></a>
+                        <a href="../detail-page6.html"> <img src="https://ifh.cc/v-VAxLLP" alt=""></a>
                     </div>
                     <div class="pic">
-                        <a href="../detail-page7.html"> <img src="../imgs/song8.jpg" alt=""></a>
+                        <a href="../detail-page7.html"> <img src="https://ifh.cc/v-t1DMxp" alt=""></a>
                     </div>
                     <div class="pic">
-                        <a href="../detail-page8.html"> <img src="../imgs/song9.jpg" alt=""></a>
+                        <a href="../detail-page8.html"> <img src="https://ifh.cc/v-x8brHr" alt=""></a>
                     </div>
                 </div>
 

@@ -30,7 +30,7 @@ session_start();
                 <h1 class="logo">
                     <a href="./index_auth.php">
                         <div>
-                            <img src="../img/BLUMPeople.png" style="width: 200px; height : 45px;">
+                            <img src="https://ifh.cc/v-27UAqp" style="width: 200px; height : 45px;">
                         </div>
                     </a>
                 </h1>
@@ -141,7 +141,7 @@ session_start();
 
                         <div class="img_section">
                             <div class="trans_inner">
-                                <div><img src="../img/img1.jpg" alt="visual01"></div>
+                                <div><img src="https://ifh.cc/v-g74K2O" alt="visual01"></div>
                             </div>
                         </div>
 
@@ -205,7 +205,7 @@ session_start();
 
                         <div class="img_section">
                             <div class="trans_inner">
-                                <div><img src="../img/img2.png" alt="visual01"></div>
+                                <div><img src="https://ifh.cc/v-gXKQqU" alt="visual01"></div>
                             </div>
                         </div>
 
@@ -267,7 +267,7 @@ session_start();
 
                         <div class="img_section">
                             <div class="trans_inner">
-                                <div><img src="../img/img3.jpg" alt="visual01"></div>
+                                <div><img src="https://ifh.cc/v-qlzQwX" alt="visual01"></div>
                             </div>
                         </div>
 
