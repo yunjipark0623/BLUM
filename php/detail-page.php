@@ -32,12 +32,26 @@
     <link rel="stylesheet" href="../css/common.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/detail-page.css">
-    <link rel="shortcut icon" href="../imgs/instagram.png">
+    <link rel="shortcut icon" href="https://ifh.cc/g/BHkqeu.png">
 
 
     <style>
         #main_container {
             /*height: 6000px;*/
+        }
+
+        .commit_field {
+          display: inline-block;
+          width: 65%;
+        }
+
+        .upload_btn {
+          font-weight: bold;
+          font-size: 14px;
+          color: #3897f0;
+          cursor: pointer;
+          border: 0;
+          background-color: transparent;
         }
     </style>
 </head>
@@ -53,7 +67,7 @@
 
                 <a href="./index_auth.php">
                     <div>
-                        <img src="https://ifh.cc/v-27UAqp" style="width: 200px; height : 45px;">
+                        <img src="https://ifh.cc/g/27UAqp" style="width: 200px; height : 45px;">
                     </div>
                 </a>
 
@@ -95,7 +109,7 @@
 
                         <div class="img_section">
                             <div class="trans_inner">
-                                <div><img src="https://ifh.cc/v-cuBLwT" alt=""></div>
+                                <div><img src="https://ifh.cc/g/cuBLwT" alt=""></div>
                             </div>
                         </div>
 
@@ -105,10 +119,19 @@
                             <header class="top">
                                 <div class="user_container">
                                     <div class="profile_img">
-                                        <img src="https://ifh.cc/v-pwtpG3" alt="">
+                                        <img src="https://ifh.cc/g/pwtpG3" alt="">
                                     </div>
                                     <div class="user_name">
-                                        <div class="nick_name">KindTiger</div>
+                                        <!-- <div class="nick_name"> -->
+                                          <?php
+                                            // session_start();
+                                            $name = $_SESSION["userid"];
+                                            echo "<script>console.log('$name');</script>";
+                                            print "<div class='nick_name'>";
+                                            print "$name";
+                                            print "</div>";
+                                          ?>
+                                        <!-- </div> -->
                                         <div class="country">Seoul, South Korea</div>
                                     </div>
                                 </div>
@@ -146,7 +169,7 @@
 
 
                                     print "<div class='admin_container'>";
-                                    print "<div class='admin'><img src='https://ifh.cc/v-pwtpG3' alt='user'></div>";
+                                    print "<div class='admin'><img src='https://ifh.cc/g/pwtpG3' alt='user'></div>";
                                     print "<span class='user_id'>$row[userid]</span>";
                                     print "<div class='comment'> $row[Comment]";
                                     print "<div class='time'>2시간</div>";

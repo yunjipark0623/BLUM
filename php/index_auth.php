@@ -30,7 +30,7 @@ session_start();
                 <h1 class="logo">
                     <a href="./index_auth.php">
                         <div>
-                            <img src="https://ifh.cc/v-27UAqp" style="width: 200px; height : 45px;">
+                            <img src='https://ifh.cc/g/27UAqp.png' border='0' style="width: 200px; height : 45px;">
                         </div>
                     </a>
                 </h1>
@@ -141,7 +141,8 @@ session_start();
 
                         <div class="img_section">
                             <div class="trans_inner">
-                                <div><img src="https://ifh.cc/v-g74K2O" alt="visual01"></div>
+                                <a href='https://ifh.cc/g/g74K2O' target='_blank'><img src='https://ifh.cc/g/g74K2O.jpg' border='0'></a>
+                                <!-- <div><img src="https://ifh.cc/g/g74K2O.jpg" alt="visual01"></div> -->
                             </div>
                         </div>
 
@@ -205,7 +206,8 @@ session_start();
 
                         <div class="img_section">
                             <div class="trans_inner">
-                                <div><img src="https://ifh.cc/v-gXKQqU" alt="visual01"></div>
+                                <a href='https://ifh.cc/g/gXKQqU' target='_blank'><img src='https://ifh.cc/g/gXKQqU.jpg' border='0'></a>
+                                <!-- <div><img src="https://ifh.cc/g/gXKQqU" alt="visual01"></div> -->
                             </div>
                         </div>
 
@@ -267,7 +269,8 @@ session_start();
 
                         <div class="img_section">
                             <div class="trans_inner">
-                                <div><img src="https://ifh.cc/v-qlzQwX" alt="visual01"></div>
+                                <a href='https://ifh.cc/g/qlzQwX' target='_blank'><img src='https://ifh.cc/g/qlzQwX.jpg' border='0'></a>
+                                <!-- <div><img src="https://ifh.cc/g/qlzQwX" alt="visual01"></div> -->
                             </div>
                         </div>
 

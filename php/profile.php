@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -29,7 +33,7 @@
     <link rel="stylesheet" href="../css/common.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/profile.css">
-    <link rel="shortcut icon" href="../imgs/instagram.png">
+    <link rel="shortcut icon" href="https://ifh.cc/g/BHkqeu.png">
 
 
 </head>
@@ -43,7 +47,7 @@
             <section class="h_inner">
                 <a href="./index_auth.php">
                     <div>
-                        <img src="https://ifh.cc/v-27UAqp" style="width: 200px; height : 45px;">
+                        <img src="https://ifh.cc/g/27UAqp" style="width: 200px; height : 45px;">
                     </div>
                 </a>
 
@@ -82,7 +86,7 @@
                 <div class="hori_cont">
                     <div class="profile_wrap">
                         <div class="profile_img">
-                            <img src="https://ifh.cc/v-Pput4v">
+                            <img src="https://ifh.cc/g/Pput4v">
                         </div>
                     </div>
 
@@ -123,31 +127,31 @@
 
                 <div class="mylist_contents contents_container active">
                     <div class="pic">
-                        <a href="./detail-page.php"><img src="https://ifh.cc/v-cuBLwT" alt=""></a>
+                        <a href="./detail-page.php"><img src="https://ifh.cc/g/cuBLwT" alt=""></a>
                     </div>
                     <div class="pic">
-                        <a href="../detail-page1.html"><img src="https://ifh.cc/v-SQLa5I" alt=""></a>
+                        <a href="../detail-page1.html"><img src="https://ifh.cc/g/SQLa5I" alt=""></a>
                     </div>
                     <div class="pic">
-                        <a href="../detail-page2.html"> <img src="https://ifh.cc/v-rCAxAs" alt=""></a>
+                        <a href="../detail-page2.html"> <img src="https://ifh.cc/g/rCAxAs" alt=""></a>
                     </div>
                     <div class="pic">
-                        <a href="../detail-page3.html"> <img src="https://ifh.cc/v-IKDBMT" alt=""></a>
+                        <a href="../detail-page3.html"> <img src="https://ifh.cc/g/IKDBMT" alt=""></a>
                     </div>
                     <div class="pic">
-                        <a href="../detail-page4.html"> <img src="https://ifh.cc/v-H1023D" alt=""></a>
+                        <a href="../detail-page4.html"> <img src="https://ifh.cc/g/H1023D" alt=""></a>
                     </div>
                     <div class="pic">
-                        <a href="../detail-page5.html"> <img src="https://ifh.cc/v-SFzK5G" alt=""></a>
+                        <a href="../detail-page5.html"> <img src="https://ifh.cc/g/SFzK5G" alt=""></a>
                     </div>
                     <div class="pic">
-                        <a href="../detail-page6.html"> <img src="https://ifh.cc/v-VAxLLP" alt=""></a>
+                        <a href="../detail-page6.html"> <img src="https://ifh.cc/g/VAxLLP" alt=""></a>
                     </div>
                     <div class="pic">
-                        <a href="../detail-page7.html"> <img src="https://ifh.cc/v-t1DMxp" alt=""></a>
+                        <a href="../detail-page7.html"> <img src="https://ifh.cc/g/t1DMxp" alt=""></a>
                     </div>
                     <div class="pic">
-                        <a href="../detail-page8.html"> <img src="https://ifh.cc/v-x8brHr" alt=""></a>
+                        <a href="../detail-page8.html"> <img src="https://ifh.cc/g/x8brHr" alt=""></a>
                     </div>
                 </div>
 
