@@ -71,7 +71,7 @@
     <div id="main_container">
 
         <div class="post_form_container">
-            <form action="#" class="post_form">
+            <form action="./php/1.php" class="post_form" method="POST" enctype="multipart/form-data">
                 <div class="title">
                     NEW POST
                 </div>
@@ -89,21 +89,21 @@
                     </div>
                 </div>
                 <p>
+                    <input type="hidden" name="MAX_FILE_SIZE" value="990000">
                     <input type="file" name="photo" id="id_photo" required="required">
                 </p>
                 <p>
                     <textarea name="content" id="text_field" cols="50" rows="5" placeholder="140자 까지 등록 가능합니다.
-#태그명 을 통해서 검색 태그를 등록할 수 있습니다.
-예시 : I # love # insta!"></textarea>
-
+        #태그명 을 통해서 검색 태그를 등록할 수 있습니다.
+        예시 : I # love # BLUM!"></textarea>
+        
                 </p>
                 <input class="submit_btn" type="submit" value="저장">
             </form>
-
+        
         </div>
-
-    </div>
-
+        
+        </div>
 
 </section>
 
