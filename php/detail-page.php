@@ -45,17 +45,17 @@ session_start();
         }
 
         .commit_field {
-          display: inline-block;
-          width: 65%;
+            display: inline-block;
+            width: 65%;
         }
 
         .upload_btn {
-          font-weight: bold;
-          font-size: 14px;
-          color: #3897f0;
-          cursor: pointer;
-          border: 0;
-          background-color: transparent;
+            font-weight: bold;
+            font-size: 14px;
+            color: #3897f0;
+            cursor: pointer;
+            border: 0;
+            background-color: transparent;
         }
     </style>
 </head>
@@ -123,18 +123,18 @@ session_start();
                             <header class="top">
                                 <div class="user_container">
                                     <div class="profile_img">
-                                        <img src="https://ifh.cc/g/pwtpG3" alt="">
+                                        <img src="https://ifh.cc/g/Pput4v" alt="">
                                     </div>
                                     <div class="user_name">
                                         <!-- <div class="nick_name"> -->
-                                          <?php
-                                            // session_start();
-                                            $name = $_SESSION["userid"];
-                                            echo "<script>console.log('$name');</script>";
-                                            print "<div class='nick_name'>";
-                                            print "$name";
-                                            print "</div>";
-                                          ?>
+                                        <?php
+                                        // session_start();
+                                        $name = $_SESSION["userid"];
+                                        echo "<script>console.log('$name');</script>";
+                                        print "<div class='nick_name'>";
+                                        print "$name";
+                                        print "</div>";
+                                        ?>
                                         <!-- </div> -->
                                         <div class="country">Seoul, South Korea</div>
                                     </div>
@@ -150,61 +150,60 @@ session_start();
                             </header>
 
                             <?php
-                                require_once('./db_con.php');
-                                $board_list_sql = "SELECT * FROM board";
-                                $total_row_check = $conn->query($board_list_sql);
-                                $total_row = $total_row_check->num_rows;
+                            require_once('./db_con.php');
+                            $board_list_sql = "SELECT * FROM board";
+                            $total_row_check = $conn->query($board_list_sql);
+                            $total_row = $total_row_check->num_rows;
 
-                                if(isset($_GET["page"])) {
-                                    $start=$_GET["page"];
-                                    $page_sql = "SELECT * FROM board ORDER BY No DESC";
-                                }
-                                else {
-                                    $page_sql = "SELECT * FROM board ORDER BY No DESC";
-                                }
+                            if (isset($_GET["page"])) {
+                                $start = $_GET["page"];
+                                $page_sql = "SELECT * FROM board ORDER BY No DESC";
+                            } else {
+                                $page_sql = "SELECT * FROM board ORDER BY No DESC";
+                            }
 
-                                $result = $conn->query($page_sql);
-                            
-
-                                print "<section class='scroll_section' style='height: 580px;'>";
-                                
-
-                                while ($row = $result->fetch_assoc()) {
-                                    $db_date = $row['date'];
-                                    date_default_timezone_set('Asia/Seoul');
-                                    $now = date('Y-m-d H:i:s');
-                                    // print "<script>console.log('$now');</script>";
-                                    $diff = (strtotime($now) - strtotime($db_date)) / 60;
-                                    $change =  (int)$diff;
-
-                                    $st = "";
+                            $result = $conn->query($page_sql);
 
 
-                                    print "<div class='admin_container'>";
-                                    print "<div class='admin'><img src='http://bitly.kr/ZHBjS1rohX' alt='user'></div>";
-                                    print "<span class='user_id'>$row[userid]</span>";
-                                    print "<div class='comment'> $row[Comment]";
-                                    print "<div class='time' style='margin-top: 0;'>$change 분전</div>";
-                                    print "</div>";
-                                    print "</div>";
+                            print "<section class='scroll_section' style='height: 580px;'>";
 
 
-                                    // print "<tr class='$st'>";
-                                    // print "<td>$row[userid]</td>";
-                                    // print "<td>$row[Comment]</td>";
-                                }
+                            while ($row = $result->fetch_assoc()) {
+                                $db_date = $row['date'];
+                                date_default_timezone_set('Asia/Seoul');
+                                $now = date('Y-m-d H:i:s');
+                                // print "<script>console.log('$now');</script>";
+                                $diff = (strtotime($now) - strtotime($db_date)) / 60;
+                                $change =  (int) $diff;
 
-                                print "</section>";
+                                $st = "";
 
-                                $page_count = (int) ($total_row / 10);
-                                if ($total_row % 10) {
-                                    $page_count++;
-                                }
 
-                                $page_count--;
-                                if (isset($_GET['page'])) {
-                                    $page = $_GET['page'];
-                                } else $page = 0;
+                                print "<div class='admin_container'>";
+                                print "<div class='admin'><img src='http://bitly.kr/ZHBjS1rohX' alt='user'></div>";
+                                print "<span class='user_id'>$row[userid]</span>";
+                                print "<div class='comment'> $row[Comment]";
+                                print "<div class='time' style='margin-top: 0;'>$change 분전</div>";
+                                print "</div>";
+                                print "</div>";
+
+
+                                // print "<tr class='$st'>";
+                                // print "<td>$row[userid]</td>";
+                                // print "<td>$row[Comment]</td>";
+                            }
+
+                            print "</section>";
+
+                            $page_count = (int) ($total_row / 10);
+                            if ($total_row % 10) {
+                                $page_count++;
+                            }
+
+                            $page_count--;
+                            if (isset($_GET['page'])) {
+                                $page = $_GET['page'];
+                            } else $page = 0;
                             ?>
 
                             <!-- <section class="scroll_section">

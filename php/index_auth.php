@@ -363,7 +363,7 @@ session_start();
                 <div class="side_box">
                     <div class="user_profile" style="margin-bottom: 15px;">
                         <div class="profile_thumb">
-                            <img src="https://ifh.cc/g/H1023D" alt="프로필사진">
+                            <img src="https://ifh.cc/g/Pput4v" alt="프로필사진">
                         </div>
                         <div class="detail">
                             <div class="id m_text name">
