@@ -234,7 +234,7 @@ body {
 
 #header .fake_field {
     position: absolute;
-    left: 50%;
+    left: 45%;
     top: 50%;
     transform: translate(-50%, -50%);
     color: gray;

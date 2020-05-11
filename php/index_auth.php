@@ -38,7 +38,7 @@ session_start();
                 <div class="search_box">
                     <input type="text" placeholder="검색" id="search-field">
 
-                    <div class="fake_field">
+                    <div class="fake_field" style="left: 17%;">
                         <span class="sprite_small_search_icon"></span>
                         <span>검색</span>
                     </div>
@@ -66,47 +66,30 @@ session_start();
         <div class="hidden_menu">
             <div class="scroll_inner">
                 <div class="user">
-                    <div class="thumb_img"><img src="http://bitly.kr/ZHBjS1rohX" alt="프로필사진"></div>
-                    <div class="id">kindtigerrr</div>
+                    <div class="thumb_img"><img src="https://img.animalplanet.co.kr/news/2019/10/31/700/191lerah0b366ig7n50c.jpg" alt="프로필사진"></div>
+                    <div class="id">dbswl0623</div>
                 </div>
 
                 <div class="user">
-                    <div class="thumb_img"><img src="http://bitly.kr/ZHBjS1rohX" alt="프로필사진"></div>
-                    <div class="id">kindtigerrr</div>
+                    <div class="thumb_img"><img src="https://img1.daumcdn.net/thumb/R1280x0.fjpg/?fname=http://t1.daumcdn.net/brunch/service/guest/image/FYdV1JIJn_8yupol5d9fVh44L9Y.PNG" alt="프로필사진"></div>
+                    <div class="id">tkddjs1212</div>
+                </div>
+                <div class="user">
+                    <div class="thumb_img"><img src="https://upload.wikimedia.org/wikipedia/ko/thumb/d/d4/%ED%8E%AD%EC%88%98.jpg/300px-%ED%8E%AD%EC%88%98.jpg" alt="프로필사진"></div>
+                    <div class="id">hann9696</div>
                 </div>
                 <div class="user">
                     <div class="thumb_img"><img src="http://bitly.kr/ZHBjS1rohX" alt="프로필사진"></div>
-                    <div class="id">kindtigerrr</div>
+                    <div class="id">gmldnjs</div>
+                </div>
+                <div class="user">
+                    <div class="thumb_img"><img src="https://organicthemes.com/demo/profile/files/2018/05/profile-pic.jpg" alt="프로필사진"></div>
+                    <div class="id">yjyj_liiit</div>
                 </div>
                 <div class="user">
                     <div class="thumb_img"><img src="http://bitly.kr/ZHBjS1rohX" alt="프로필사진"></div>
-                    <div class="id">kindtigerrr</div>
+                    <div class="id">doyeon_zzz</div>
                 </div>
-                <div class="user">
-                    <div class="thumb_img"><img src="http://bitly.kr/ZHBjS1rohX" alt="프로필사진"></div>
-                    <div class="id">kindtigerrr</div>
-                </div>
-                <div class="user">
-                    <div class="thumb_img"><img src="http://bitly.kr/ZHBjS1rohX" alt="프로필사진"></div>
-                    <div class="id">kindtigerrr</div>
-                </div>
-                <div class="user">
-                    <div class="thumb_img"><img src="http://bitly.kr/ZHBjS1rohX" alt="프로필사진"></div>
-                    <div class="id">kindtigerrr</div>
-                </div>
-                <div class="user">
-                    <div class="thumb_img"><img src="http://bitly.kr/ZHBjS1rohX" alt="프로필사진"></div>
-                    <div class="id">kindtigerrr</div>
-                </div>
-                <div class="user">
-                    <div class="thumb_img"><img src="http://bitly.kr/ZHBjS1rohX" alt="프로필사진"></div>
-                    <div class="id">kindtigerrr</div>
-                </div>
-                <div class="user">
-                    <div class="thumb_img"><img src="http://bitly.kr/ZHBjS1rohX" alt="프로필사진"></div>
-                    <div class="id">kindtigerrr</div>
-                </div>
-
             </div>
         </div>
 
@@ -119,7 +102,7 @@ session_start();
                         <header class="top">
                             <div class="user_container">
                                 <div class="profile_img">
-                                    <img src="http://bitly.kr/ZHBjS1rohX" alt="프로필이미지">
+                                    <img src="https://ifh.cc/g/g74K2O.jpg" alt="프로필이미지">
                                 </div>
                                 <div class="user_name">
                                     <div class="nick_name m_text">
@@ -141,8 +124,8 @@ session_start();
 
                         <div class="img_section">
                             <div class="trans_inner">
-                                <a href='https://ifh.cc/g/g74K2O' target='_blank'><img src='https://ifh.cc/g/g74K2O.jpg' border='0'></a>
-                                <!-- <div><img src="https://ifh.cc/g/g74K2O.jpg" alt="visual01"></div> -->
+                                <!-- <a href='https://ifh.cc/g/g74K2O' target='_blank'><img src='https://ifh.cc/g/g74K2O.jpg' border='0'></a> -->
+                                <div><img src="https://ifh.cc/g/g74K2O.jpg" alt="visual01"></div>
                             </div>
                         </div>
 
@@ -249,7 +232,7 @@ session_start();
                         <header class="top">
                             <div class="user_container">
                                 <div class="profile_img">
-                                    <img src="http://bitly.kr/ZHBjS1rohX" alt="프로필이미지">
+                                    <img src="https://ifh.cc/g/qlzQwX.jpg" alt="프로필이미지">
                                 </div>
                                 <div class="user_name">
                                     <div class="nick_name m_text">gmldnjs</div>
@@ -380,14 +363,14 @@ session_start();
                 <div class="side_box">
                     <div class="user_profile" style="margin-bottom: 15px;">
                         <div class="profile_thumb">
-                            <img src="http://bitly.kr/ZHBjS1rohX" alt="프로필사진">
+                            <img src="https://ifh.cc/g/H1023D" alt="프로필사진">
                         </div>
                         <div class="detail">
                             <div class="id m_text name">
                                 <?php
                                 $name = $_SESSION["userid"];
                                 echo "<script>console.log('$name');</script>";
-                                print "<h4>$name</h4>";
+                                print "<h4 style='font-weight: bold; font-size: 25px;'>$name</h4>";
                                 ?>
                             </div>
                         </div>
@@ -402,7 +385,7 @@ session_start();
                         <div class="scroll_inner">
                             <div class="thumb_user">
                                 <div class="profile_thumb">
-                                    <img src="http://bitly.kr/ZHBjS1rohX" alt="프로필사진">
+                                    <img src="https://ifh.cc/g/SFzK5G" alt="프로필사진">
                                 </div>
                                 <div class="detail">
                                     <div class="id">yjyj_liiit</div>
@@ -411,7 +394,7 @@ session_start();
                             </div>
                             <div class="thumb_user">
                                 <div class="profile_thumb">
-                                    <img src="http://bitly.kr/ZHBjS1rohX" alt="프로필사진">
+                                    <img src="https://ifh.cc/g/SQLa5I" alt="프로필사진">
                                 </div>
                                 <div class="detail">
                                     <div class="id">tkddjs</div>
@@ -429,7 +412,7 @@ session_start();
                             </div>
                             <div class="thumb_user">
                                 <div class="profile_thumb">
-                                    <img src="http://bitly.kr/ZHBjS1rohX" alt="프로필사진">
+                                    <img src="https://ifh.cc/g/x8brHr" alt="프로필사진">
                                 </div>
                                 <div class="detail">
                                     <div class="id">gmldnjs</div>
@@ -459,16 +442,16 @@ session_start();
                                 <img src="http://bitly.kr/ZHBjS1rohX" alt="프로필사진">
                             </div>
                             <div class="detail">
-                                <div class="id">yjyj_liiit</div>
+                                <div class="id">dbswl_1313</div>
                                 <div class="time">1시간 전</div>
                             </div>
                         </div>
                         <div class="thumb_user">
                             <div class="profile_thumb">
-                                <img src="http://bitly.kr/ZHBjS1rohX" alt="프로필사진">
+                                <img src="https://ifh.cc/g/x8brHr" alt="프로필사진">
                             </div>
                             <div class="detail">
-                                <div class="id">tkddjs</div>
+                                <div class="id">ppp_goood</div>
                                 <div class="time">2시간 전</div>
                             </div>
                         </div>

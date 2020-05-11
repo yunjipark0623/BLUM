@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="ko">
 
@@ -82,7 +86,7 @@
 
 
                 <div class="right_icons">
-                    <a href="new_post.html">
+                    <a href="../new_post.html">
                         <div class="sprite_camera_icon"></div>
                     </a>
                     <a href="#">
@@ -152,27 +156,35 @@
                                 $total_row = $total_row_check->num_rows;
 
                                 if(isset($_GET["page"])) {
-                                    $start=$_GET["page"] * 10;
-                                    $page_sql = "SELECT * FROM board ORDER BY No ASC LIMIT $start, 10";
+                                    $start=$_GET["page"];
+                                    $page_sql = "SELECT * FROM board ORDER BY No DESC";
                                 }
                                 else {
-                                    $page_sql = "SELECT * FROM board ORDER BY No ASC LIMIT 10";
+                                    $page_sql = "SELECT * FROM board ORDER BY No DESC";
                                 }
 
                                 $result = $conn->query($page_sql);
+                            
 
-                                print "<section class='scroll_section'>";
+                                print "<section class='scroll_section' style='height: 580px;'>";
+                                
 
                                 while ($row = $result->fetch_assoc()) {
+                                    $db_date = $row['date'];
+                                    date_default_timezone_set('Asia/Seoul');
+                                    $now = date('Y-m-d H:i:s');
+                                    // print "<script>console.log('$now');</script>";
+                                    $diff = (strtotime($now) - strtotime($db_date)) / 60;
+                                    $change =  (int)$diff;
 
                                     $st = "";
 
 
                                     print "<div class='admin_container'>";
-                                    print "<div class='admin'><img src='https://ifh.cc/g/pwtpG3' alt='user'></div>";
+                                    print "<div class='admin'><img src='http://bitly.kr/ZHBjS1rohX' alt='user'></div>";
                                     print "<span class='user_id'>$row[userid]</span>";
                                     print "<div class='comment'> $row[Comment]";
-                                    print "<div class='time'>2시간</div>";
+                                    print "<div class='time' style='margin-top: 0;'>$change 분전</div>";
                                     print "</div>";
                                     print "</div>";
 
@@ -229,7 +241,6 @@
                                 <span class="count">2,351</span>
                                 개
                             </div>
-                            <div class="timer">2시간</div>
 
                             <form action="./board.php" method="POST">
                                 <div class="commit_field">

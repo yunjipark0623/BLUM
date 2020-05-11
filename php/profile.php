@@ -95,9 +95,9 @@ session_start();
 
                             <div style="height: 48px; line-height: 48px; margin-right: 10px;">
                                 <?php
-                                session_start();
+                                // session_start();
                                 $name = $_SESSION["userid"];
-                                print "<h4>$name</h4>";
+                                print "<h4 style='font-weight: bold; font-size: 25px;'>$name</h4>";
                                 ?>
                                 <br></br>
                             </div>
