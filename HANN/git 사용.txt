@@ -1,0 +1,56 @@
+사용자 정보(이름, 이메일) 등록 -> 전역설정
+$ git config --global user.name HANN
+$ git config --global user.email kimjhtlzk@naver.com
+
+$ cd Desktop/
+
+$ git clone https://github.com/yunjipark0623/BLUM.git
+Cloning into 'BLUM'...
+remote: Enumerating objects: 26, done.
+remote: Counting objects: 100% (26/26), done.
+remote: Compressing objects: 100% (18/18), done.
+remote: Total 26 (delta 9), reused 23 (delta 6), pack-reused 0
+Receiving objects: 100% (26/26), 1.79 MiB | 1.81 MiB/s, done.
+Resolving deltas: 100% (9/9), done.
+
+
+user@DESKTOP-7EQF3M8 MINGW64 ~/Desktop
+$ cd ./BLUM
+
+
+user@DESKTOP-7EQF3M8 MINGW64 ~/Desktop/BLUM (master)
+$ git add *
+
+user@DESKTOP-7EQF3M8 MINGW64 ~/Desktop/BLUM (master)
+$ git commit -m "insta clone source file"
+[master 13810c1] insta clone source file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 htdocs.zip
+
+user@DESKTOP-7EQF3M8 MINGW64 ~/Desktop/BLUM (master)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 47.25 MiB | 5.04 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/yunjipark0623/BLUM.git
+   0348113..13810c1  master -> master
+
+
+
+
+--------------------
+
+
+
+user@DESKTOP-7EQF3M8 MINGW64 ~
+$ cd Desktop/
+
+user@DESKTOP-7EQF3M8 MINGW64 ~/Desktop
+$ cd BLUM
+
+user@DESKTOP-7EQF3M8 MINGW64 ~/Desktop/BLUM (master)
+$ git pull
