@@ -17,7 +17,7 @@ use webdb;
 create table member(No int auto_increment primary key, ID varchar(20) not null, PW varchar(50) not null, Name varchar(20) not null, Phone varchar(50) not null, Addr varchar(50) not null, Mail varchar(50) not null);
 desc member;
 
-create table board(No int auto_increment primary key, Comment varchar(200) not null, userid varchar(50) not null);
+create table board(No int auto_increment primary key, Comment varchar(200) not null, userid varchar(50) not null, date timestamp not null);
 desc board;
 
 
@@ -36,29 +36,8 @@ desc board;
 
 C:\xampp\mysql\bin
 
-my.ini 파일 메모장으로 열고
-맨 아래
-
-[mysqld]
-character-set-server = euckr
-#character-set-client-handshake = FALSE
-skip-character-set-client-handshake
-
-내용 추가.
-
-같은경로에 
 mysql.exe 덮어씌우기.
 
 DB 확인
 
 ---------------------------------------------
-
-
-
-
-
-
-
-ps....
-[instagram clone]
-https://kindfamily.github.io/instaclone_front_source/
