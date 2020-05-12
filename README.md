@@ -1,4 +1,4 @@
-# Thanks for visitig our website!!  
+# Thanks for visiting our website!!  
 #### index.html
 ![index.html](./screenshot/index.png)    
     
